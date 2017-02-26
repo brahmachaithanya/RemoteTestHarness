@@ -1,0 +1,11 @@
+C:\su\cse681\code\Project2HelpF16\InstrSol-Project2\TestedCode\bin\Debug\TestedCode.pdb
+C:\su\cse681\code\Project2HelpF16\InstrSol-Project2\TestedCode\obj\Debug\TestedCode.pdb
+C:\su\cse681\code\Project2HelpF16\InstrSol-Project2\TestedCode\obj\Debug\TestedCode.csprojResolveAssemblyReference.cache
+C:\SU\cse681\code\Project2HelpF16\InstrSol-Project2\TestedCode\bin\Debug\TestedCode.dll.config
+C:\SU\cse681\code\Project2HelpF16\InstrSol-Project2\TestedCode\bin\Debug\TestedCode.dll
+C:\SU\cse681\code\Project2HelpF16\InstrSol-Project2\TestedCode\obj\Debug\TestedCode.dll
+C:\su\cse681\Midterm\MTF16\MTF16Code\MT1Q2\TestedCode\bin\Debug\TestedCode.dll.config
+C:\su\cse681\Midterm\MTF16\MTF16Code\MT1Q2\TestedCode\bin\Debug\TestedCode.dll
+C:\su\cse681\Midterm\MTF16\MTF16Code\MT1Q2\TestedCode\bin\Debug\TestedCode.pdb
+C:\su\cse681\Midterm\MTF16\MTF16Code\MT1Q2\TestedCode\obj\Debug\TestedCode.dll
+C:\su\cse681\Midterm\MTF16\MTF16Code\MT1Q2\TestedCode\obj\Debug\TestedCode.pdb

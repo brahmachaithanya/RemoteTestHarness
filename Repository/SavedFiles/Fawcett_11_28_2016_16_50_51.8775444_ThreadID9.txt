@@ -1,0 +1,10 @@
+Fawcett_11_28_2016_16_50_51.8775444_ThreadID9.txt
+-----------------------------
+test1
+failed
+exception thrown
+-----------------------------
+test3
+failed
+exception thrown
+-----------------------------

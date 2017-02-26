@@ -1,0 +1,127 @@
+
+  Demonstrating TestHarness - Project #2
+ ========================================
+  creating Test Executive - Req #9
+  creating instance of TestHarness
+  Creating instance of Client
+  Creating instance of Repository
+  TestHarness received a testRequest - Req #2
+  TestHarness received a testRequest - Req #2
+  dequeuing testRequest: - Req #3
+  processing TestRequest: - Req #2
+  Starting in AppDomain TestExecutive.exe
+
+    <testRequest>
+      <test name="test1">
+        <testDriver>testdriver.dll</testDriver>
+        <library>testedcode.dll</library>
+      </test>
+      <test name="test2">
+        <testDriver>td1.dll</testDriver>
+        <library>tc1.dll</library>
+      </test>
+      <test name="test3">
+        <testDriver>anothertestdriver.dll</testDriver>
+        <library>anothertestedcode.dll</library>
+      </test>
+    </testRequest>
+
+  parsing test request
+  retrieving code files from testInfo data structure
+  creating local test directory "Fawcett_10_20_2016_20_55_31.6668163"
+  loading code from Repository
+    retrieved file "testdriver.dll"
+    retrieved file "testedcode.dll"
+    could not retrieve file "td1.dll"
+    could not retrieve file "tc1.dll"
+    retrieved file "anothertestdriver.dll"
+    retrieved file "anothertestedcode.dll"
+
+  creating child AppDomain - Req #5
+  created AppDomain "ChildDomain"
+  creating instance of LoadAndTest
+  -- "test1" --
+    loaded: "testdriver.dll"
+    testdriver.dll implements ITest interface - Req #4
+    loaded: "testedcode.dll"
+    testing testdriver.dll
+    test passed
+  received msg from childDomain: "testdriver.dll passed"
+  -- "test2" --
+    could not load "td1.dll"
+    could not load "tc1.dll"
+    testing 
+    test failed
+    test failed
+  received msg from childDomain: " failed"
+  -- "test3" --
+    loaded: "anothertestdriver.dll"
+    anothertestdriver.dll implements ITest interface - Req #4
+    loaded: "anothertestedcode.dll"
+    testing anothertestdriver.dll
+    test failed
+  received msg from childDomain: "anothertestdriver.dll failed"
+
+  test results are:
+  - test Identifier: Fawcett_10_20_2016_20_55_31.6668163
+  - test DateTime:   10/20/2016 8:55:31 PM
+  --------------------------------------
+    test name:   test1
+    test result: passed
+    test log:    demo test that always passes
+  --------------------------------------
+    test name:   test2
+    test result: failed
+    test log:    file not loaded
+  --------------------------------------
+    test name:   test3
+    test result: failed
+    test log:    demo test that always fails
+  --------------------------------------
+
+
+  removing test directory "Fawcett_10_20_2016_20_55_31.6668163"
+  saved test results and logs in Repository - Req #6, Req #7
+  unloading: "ChildDomain"
+
+  dequeuing testRequest: - Req #3
+  processing TestRequest: - Req #2
+  creating child AppDomain - Req #5
+  creating instance of LoadAndTest
+  -- "test1" --
+    loaded: "testdriver.dll"
+    testdriver.dll implements ITest interface - Req #4
+    loaded: "testedcode.dll"
+    testing testdriver.dll
+    test passed
+  -- "test2" --
+    could not load "td1.dll"
+    could not load "tc1.dll"
+    testing 
+    test failed
+  -- "test3" --
+    loaded: "anothertestdriver.dll"
+    anothertestdriver.dll implements ITest interface - Req #4
+    loaded: "anothertestedcode.dll"
+    testing anothertestdriver.dll
+    test failed
+
+  test results are:
+  - test Identifier: Fawcett_10_20_2016_20_55_31.7980124
+  - test DateTime:   10/20/2016 8:55:31 PM
+  --------------------------------------
+    test name:   test1
+    test result: passed
+    test log:    demo test that always passes
+  --------------------------------------
+    test name:   test2
+    test result: failed
+    test log:    file not loaded
+  --------------------------------------
+    test name:   test3
+    test result: failed
+    test log:    demo test that always fails
+  --------------------------------------
+
+  saved test results and logs in Repository - Req #6, Req #7
+  press key to exit

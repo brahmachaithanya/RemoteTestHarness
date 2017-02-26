@@ -1,0 +1,154 @@
+
+  Demonstrating Project #4 Channel Prototype
+ ============================================
+
+  service proxy created for http://localhost:8080/ICommunicator
+  Service is open listening on http://localhost:8080/ICommunicator
+
+  service proxy created for http://localhost:8080/ICommunicator
+  posting message: 
+    <testRequest>
+      <test name="test1">
+        <testDriver>td1.dll</testDriver>
+        <library>tc1.dll</library>
+        <library>tc2.dll</library>
+      </test>
+      <test name="test2">
+        <testDriver>td2.dll</testDriver>
+        <library>tc3.dll</library>
+        <library>tc4.dll</library>
+      </test>
+    </testRequest>
+
+  service proxy created for http://localhost:8080/ICommunicator
+  posting message: 
+    <testRequest>
+      <test name="test1">
+        <testDriver>td1.dll</testDriver>
+        <library>tc1.dll</library>
+        <library>tc2.dll</library>
+      </test>
+      <test name="test2">
+        <testDriver>td2.dll</testDriver>
+        <library>tc3.dll</library>
+        <library>tc4.dll</library>
+      </test>
+    </testRequest>
+
+  received message from: http://localhost:8080/ICommunicator  
+    <testRequest>
+      <test name="test1">
+        <testDriver>td1.dll</testDriver>
+        <library>tc1.dll</library>
+        <library>tc2.dll</library>
+      </test>
+      <test name="test2">
+        <testDriver>td2.dll</testDriver>
+        <library>tc3.dll</library>
+        <library>tc4.dll</library>
+      </test>
+    </testRequest>
+
+  received message from: http://localhost:8080/ICommunicator  
+    <testRequest>
+      <test name="test1">
+        <testDriver>td1.dll</testDriver>
+        <library>tc1.dll</library>
+        <library>tc2.dll</library>
+      </test>
+      <test name="test2">
+        <testDriver>td2.dll</testDriver>
+        <library>tc3.dll</library>
+        <library>tc4.dll</library>
+      </test>
+    </testRequest>
+
+  service proxy created for http://localhost:8080/ICommunicator
+  posting message: 
+    <testRequest>
+      <test name="test1">
+        <testDriver>td1.dll</testDriver>
+        <library>tc1.dll</library>
+        <library>tc2.dll</library>
+      </test>
+      <test name="test2">
+        <testDriver>td2.dll</testDriver>
+        <library>tc3.dll</library>
+        <library>tc4.dll</library>
+      </test>
+    </testRequest>
+
+  received message from: http://localhost:8080/ICommunicator  
+    <testRequest>
+      <test name="test1">
+        <testDriver>td1.dll</testDriver>
+        <library>tc1.dll</library>
+        <library>tc2.dll</library>
+      </test>
+      <test name="test2">
+        <testDriver>td2.dll</testDriver>
+        <library>tc3.dll</library>
+        <library>tc4.dll</library>
+      </test>
+    </testRequest>
+
+  service proxy created for http://localhost:8080/ICommunicator
+  posting message: 
+    <testRequest>
+      <test name="test1">
+        <testDriver>td1.dll</testDriver>
+        <library>tc1.dll</library>
+        <library>tc2.dll</library>
+      </test>
+      <test name="test2">
+        <testDriver>td2.dll</testDriver>
+        <library>tc3.dll</library>
+        <library>tc4.dll</library>
+      </test>
+    </testRequest>
+
+  received message from: http://localhost:8080/ICommunicator  
+    <testRequest>
+      <test name="test1">
+        <testDriver>td1.dll</testDriver>
+        <library>tc1.dll</library>
+        <library>tc2.dll</library>
+      </test>
+      <test name="test2">
+        <testDriver>td2.dll</testDriver>
+        <library>tc3.dll</library>
+        <library>tc4.dll</library>
+      </test>
+    </testRequest>
+
+  service proxy created for http://localhost:8080/ICommunicator
+  posting message: 
+    <testRequest>
+      <test name="test1">
+        <testDriver>td1.dll</testDriver>
+        <library>tc1.dll</library>
+        <library>tc2.dll</library>
+      </test>
+      <test name="test2">
+        <testDriver>td2.dll</testDriver>
+        <library>tc3.dll</library>
+        <library>tc4.dll</library>
+      </test>
+    </testRequest>
+
+  received message from: http://localhost:8080/ICommunicator  
+    <testRequest>
+      <test name="test1">
+        <testDriver>td1.dll</testDriver>
+        <library>tc1.dll</library>
+        <library>tc2.dll</library>
+      </test>
+      <test name="test2">
+        <testDriver>td2.dll</testDriver>
+        <library>tc3.dll</library>
+        <library>tc4.dll</library>
+      </test>
+    </testRequest>
+
+  received message from:   quit
+

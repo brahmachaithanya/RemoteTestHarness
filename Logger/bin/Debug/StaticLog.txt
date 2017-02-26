@@ -1,0 +1,6 @@
+
+  Demonstrating StaticLogger<ResultsLog>
+ ----------------------------------------
+  first line from static logger
+  second line from static logger
+

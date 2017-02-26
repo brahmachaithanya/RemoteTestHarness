@@ -1,0 +1,40 @@
+
+                                             CodeAnalysis
+    ==============================================================================================
+     Thu Oct 20 12:32:41 2016
+     Path: C:\Users\jimfa\Desktop\InstrSol-Project2\Logger
+     Args: *.h, *.cpp, *.cs, /m, /r, /f
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      23
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                 Logger.cs   namespace                             Logger      16     115      22
+                 Logger.cs       class                             Logger      18      94      19
+                 Logger.cs    function                             attach      27       3       1
+                 Logger.cs    function                  makeConsoleStream      31       5       1
+                 Logger.cs    function                     makeFileStream      37      12       3
+                 Logger.cs    function                              write      50       4       1
+                 Logger.cs    function                         threadProc      55      15       4
+                 Logger.cs    function                              start      71       7       1
+                 Logger.cs    function                            running      79       3       1
+                 Logger.cs    function                              pause      83      12       3
+                 Logger.cs    function                             paused      96       3       1
+                 Logger.cs    function                               stop     100      10       2
+                 Logger.cs       class                         LoggerTest     112      19       2
+                 Logger.cs    function                               Main     115      13       1
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+
+
+
+    searched     7 dirs
+   processed     5 files

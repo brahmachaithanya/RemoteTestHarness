@@ -1,0 +1,20 @@
+c:\users\jfawc\documents\visual studio 2015\Projects\TestDeserialization\TestDeserialization\bin\Debug\TestDeserialization.exe.config
+c:\users\jfawc\documents\visual studio 2015\Projects\TestDeserialization\TestDeserialization\bin\Debug\TestDeserialization.exe
+c:\users\jfawc\documents\visual studio 2015\Projects\TestDeserialization\TestDeserialization\bin\Debug\TestDeserialization.pdb
+c:\users\jfawc\documents\visual studio 2015\Projects\TestDeserialization\TestDeserialization\obj\Debug\TestDeserialization.csprojResolveAssemblyReference.cache
+c:\users\jfawc\documents\visual studio 2015\Projects\TestDeserialization\TestDeserialization\obj\Debug\TestDeserialization.exe
+c:\users\jfawc\documents\visual studio 2015\Projects\TestDeserialization\TestDeserialization\obj\Debug\TestDeserialization.pdb
+C:\su\cse681\code\Project2HelpF15\TestDeserialization\TestDeserialization\bin\Debug\TestDeserialization.exe.config
+C:\su\cse681\code\Project2HelpF15\TestDeserialization\TestDeserialization\obj\Debug\TestDeserialization.exe
+C:\su\cse681\code\Project2HelpF15\TestDeserialization\TestDeserialization\obj\Debug\TestDeserialization.pdb
+C:\su\cse681\code\Project2HelpF15\TestDeserialization\TestDeserialization\bin\Debug\TestDeserialization.exe
+C:\su\cse681\code\Project2HelpF15\TestDeserialization\TestDeserialization\bin\Debug\TestDeserialization.pdb
+C:\su\cse681\code\Project2HelpF15\TestDeserialization\TestDeserialization\obj\Debug\TestDeserialization.csprojResolveAssemblyReference.cache
+C:\SU\coretechnologies\CSharp\code\TestDeserialization\TestDeserialization\bin\Debug\TestDeserialization.exe.config
+C:\SU\coretechnologies\CSharp\code\TestDeserialization\TestDeserialization\obj\Debug\TestDeserialization.exe
+C:\Users\jimfa\Desktop\TestDeserialization\TestDeserialization\bin\Debug\TestDeserialization.exe.config
+C:\Users\jimfa\Desktop\TestDeserialization\TestDeserialization\obj\Debug\TestDeserialization.exe
+C:\Users\jimfa\Desktop\TestDeserialization\TestDeserialization\bin\Debug\TestDeserialization.exe
+C:\Users\jimfa\Desktop\TestDeserialization\TestDeserialization\bin\Debug\TestDeserialization.pdb
+C:\Users\jimfa\Desktop\TestDeserialization\TestDeserialization\obj\Debug\TestDeserialization.csprojResolveAssemblyReference.cache
+C:\Users\jimfa\Desktop\TestDeserialization\TestDeserialization\obj\Debug\TestDeserialization.pdb

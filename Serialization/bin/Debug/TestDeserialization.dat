@@ -1,0 +1,15 @@
+
+  Demonstrating XML Serialization and Deserialization
+ =====================================================
+
+  attempting to serialize Widget object:
+  widget:
+<?xml version="1.0" encoding="utf-16"?>
+<Widget>
+  <name>Jim</name>
+</Widget>
+
+  attempting to deserialize Widget object:
+  retrieved object of type: Widget
+  reconstructed widget's name = "Jim"
+

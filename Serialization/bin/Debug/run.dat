@@ -1,0 +1,42 @@
+
+  Demonstrating XML Serialization and Deserialization
+ =====================================================
+
+  Serializing TestResults data structure:
+
+  <?xml version="1.0" encoding="utf-16"?>
+<TestResults>
+  <author>Fawcett</author>
+  <timeStamp>2016-10-25T08:33:48.8910086-04:00</timeStamp>
+  <results>
+    <TestResult>
+      <testName>test1</testName>
+      <passed>true</passed>
+      <log>test always passes</log>
+    </TestResult>
+    <TestResult>
+      <testName>test2</testName>
+      <passed>false</passed>
+      <log>test always fails every time</log>
+    </TestResult>
+  </results>
+</TestResults>
+
+  deserializing xml string results in type: TestResults
+
+  Author: Fawcett 10/25/2016 8:33:48 AM
+    Test: test1 True
+    log:  test always passes
+    Test: test2 False
+    log:  test always fails every time
+
+  attempting to serialize Widget object:
+  widget:
+<?xml version="1.0" encoding="utf-16"?>
+<Widget>
+  <name>Jim</name>
+</Widget>
+
+  attempting to deserialize Widget object:
+  reconstructed widget's name = "Jim"
+

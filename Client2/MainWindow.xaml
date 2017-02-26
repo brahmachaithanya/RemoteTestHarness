@@ -1,0 +1,54 @@
+﻿<Window x:Class="CommChannelDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CommChannelDemo"
+        mc:Ignorable="d"
+        Title="Client2"  Height="650" Width="922" ResizeMode="CanMinimize" Topmost="False" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid Height="611" HorizontalAlignment="Left" Name="grid1" VerticalAlignment="Top" Width="903">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <GroupBox Header="Test Request" Height="587" HorizontalAlignment="Left" Margin="6,6,0,0" Name="inpBox" VerticalAlignment="Top" Width="446" Visibility="Visible">
+                <Grid Visibility="Visible" Margin="2,48,-2.4,-48.2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="191*"/>
+                        <RowDefinition Height="373*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="67*" />
+                        <ColumnDefinition Width="367*" />
+                    </Grid.ColumnDefinitions>
+                    <Button Content="Select TestDriver" Height="34" HorizontalAlignment="Left" Margin="1,144.333,0,0" Name="button1" VerticalAlignment="Top" Width="105" Click="testdriver_button" Grid.ColumnSpan="2" Grid.Row="1" />
+                    <ListBox Height="223" HorizontalAlignment="Left" Margin="0,41,0,0" Name="fileListBox" VerticalAlignment="Top" Width="403" ItemsSource="{Binding}" DataContext="{Binding Path=DataContext}" Grid.ColumnSpan="2" SelectionMode="Single" Grid.RowSpan="2" />
+                    <Button Content="Test" Height="34" HorizontalAlignment="Left" Margin="213.667,144.333,0,0" Name="startTesting" VerticalAlignment="Top" Width="120" Click="start_test" Grid.Column="1" Grid.Row="1" />
+                    <Button Content="X" Height="23" HorizontalAlignment="Left" Margin="340.667,50.393,0,0" Name="remove_button" VerticalAlignment="Top" Width="19" Click="remove_button_1" Grid.Column="1" RenderTransformOrigin="0.474,3.217" Grid.Row="1" />
+                    <TextBox Height="28" HorizontalAlignment="Left" Margin="18.667,0,0,0" Name="prjname" VerticalAlignment="Top" Width="120" Grid.Column="1" TextChanged="prjname_TextChanged" />
+                    <Label Content="Test_Name" Height="24" HorizontalAlignment="Left" Margin="10,2,0,0" Name="label1" VerticalAlignment="Top" Width="66" Grid.ColumnSpan="2" />
+                    <Label Content="Author" Height="28" HorizontalAlignment="Right" Margin="0,0,147.667,0" Name="label2" VerticalAlignment="Top" Width="71" RenderTransformOrigin="1.526,0.488" Grid.Column="1" />
+                    <TextBox Height="26" HorizontalAlignment="Left" Margin="198.667,0,0,164.667" Name="username" VerticalAlignment="Bottom" Width="110" Grid.Column="1" TextChanged="username_TextChanged_1" />
+                    <Button Content="Select TestCode" Height="34" HorizontalAlignment="Left" Margin="69.667,144.333,0,0" x:Name="button1_Copy" VerticalAlignment="Top" Width="105" Click="testcode_button" Grid.Row="1" Grid.Column="1" />
+
+                </Grid>
+            </GroupBox>
+        </Grid>
+        <GroupBox Header="Test Results" Height="589" HorizontalAlignment="Left" Margin="458,6,0,0" Name="groupBox2" VerticalAlignment="Top" Width="445">
+
+
+
+            <Grid Height="331" HorizontalAlignment="Left" Margin="0,10,0,0" Name="fetchResultGrid" VerticalAlignment="Top" Width="415" Visibility="Visible" DataContext="{Binding}" Background="{x:Null}" IsManipulationEnabled="True">
+                <Grid.RenderTransform>
+                    <TranslateTransform x:Name="tt"/>
+                </Grid.RenderTransform>
+                <Button Content="Get Logs" Height="23" HorizontalAlignment="Right" Margin="0,10,49,0" Name="show_results" VerticalAlignment="Top" Width="75" Click="show_log" />
+                <Label Content="Enter Author name" Height="28" HorizontalAlignment="Left" Margin="10,9,0,0" Name="label7" VerticalAlignment="Top" Width="133" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="146,11,0,0" Name="test_author" VerticalAlignment="Top" Width="120" TextChanged="test_author_TextChanged" />
+            </Grid>
+
+        </GroupBox>
+        <Button Content="Show Results" Height="34" HorizontalAlignment="Left" Margin="150,516,0,0" x:Name="show_result" VerticalAlignment="Top" Width="105" Click="show_results_button" />
+    </Grid>
+</Window>

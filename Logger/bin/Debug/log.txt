@@ -1,0 +1,22 @@
+
+  Testing Loggers
+ =================
+
+  Demonstrating Logger class
+ ----------------------------
+  first visible log
+  second visible log
+
+  pausing logger - 11/13/2016 2:24:09 PM
+    writing while unpaused - 11/13/2016 2:24:11 PM
+    writing while unpaused - 11/13/2016 2:24:11 PM
+    writing while unpaused - 11/13/2016 2:24:11 PM
+    writing while unpaused - 11/13/2016 2:24:11 PM
+    writing while paused - 11/13/2016 2:24:11 PM
+    writing while paused - 11/13/2016 2:24:11 PM
+    writing while paused - 11/13/2016 2:24:12 PM
+    writing while paused - 11/13/2016 2:24:12 PM
+    writing while paused - 11/13/2016 2:24:12 PM
+  unpausing logger - 11/13/2016 2:24:12 PM
+
+  writing after pause

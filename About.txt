@@ -1,0 +1,28 @@
+About.Txt
+=====================================================================================
+CommChannelDemo Solution
+- Demonstrates a CommService, implemented with Windows Communication Foundation (WCF),
+  that sends instances of a message class between EndPoints, using the WSHttp protocol.
+- Three application packages are provided: Client, Server, and CommChannelDemo.
+- Client and Server demonstrate typical usage by applications and should serve as
+  a model for your Project #4 code.
+- CommChannelDemo uses two instances of the Comm<T> class in a single process.
+  Usually you would only use one instance of Comm<T> in a process, but using two
+  made it easier to test quickly.
+- The Message package implements the construction of basic messages.
+- MessageTest provides two classes, TestElement and TestRequest, used to build
+  TestRequest messages.  For these we serialize an instance of a TestRequest
+  to XML to send as the body string in a message.  It would be a good idea to use
+  this package to create factory functions for all of the messages you need to
+  send for your Project #4 code.
+- Serialization provides support for making message bodies from Data Structure
+  class instances like TestRequest.
+
+I intentionally have not provided any file handling capability, leaving that to you
+to complete the Channel processing functionality.  You will find the demos:
+TimedFileStreaming and FileService-SelfHost useful to complete that capability.
+
+Running Demo:
+- Select "Set Startup Projects" by right-clicking on the solution and check
+  Server and Client
+- Rebuild solution and run.

@@ -1,0 +1,8 @@
+C:\su\cse681\code\Project2HelpF16\InstrSol-Project2\LoadAndExecute\bin\Debug\LoadAndExecute.exe.config
+C:\su\cse681\code\Project2HelpF16\InstrSol-Project2\LoadAndExecute\bin\Debug\LoadAndExecute.exe
+C:\su\cse681\code\Project2HelpF16\InstrSol-Project2\LoadAndExecute\bin\Debug\LoadAndExecute.pdb
+C:\su\cse681\code\Project2HelpF16\InstrSol-Project2\LoadAndExecute\obj\Debug\LoadAndExecute.exe
+C:\su\cse681\code\Project2HelpF16\InstrSol-Project2\LoadAndExecute\obj\Debug\LoadAndExecute.pdb
+C:\su\cse681\code\Project2HelpF16\InstrSol-Project2\LoadAndExecute\obj\Debug\LoadAndExecute.csprojResolveAssemblyReference.cache
+C:\su\cse681\code\Project2HelpF16\InstrSol-Project2\LoadAndExecute\bin\Debug\ITest.dll
+C:\su\cse681\code\Project2HelpF16\InstrSol-Project2\LoadAndExecute\bin\Debug\ITest.pdb
